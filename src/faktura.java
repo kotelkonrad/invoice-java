@@ -7,7 +7,7 @@ public class faktura {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Oto program do faktur.");
+        System.out.println("Oto program do faktur.e");
         StringBuilder komenda = new StringBuilder();
         System.out.println("Podaj miejsce wystawienia faktury:");
         komenda.append(scanner.nextLine());
