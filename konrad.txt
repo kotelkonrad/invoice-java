@@ -1,0 +1,18 @@
+Miejsce wystawienia faktury: konrad
+Data wystawienia faktury: ko
+Data sprzedaży: ko
+
+Sprzedawca
+Nazwa : ko
+Ulica : ko
+Numer pocztowy : ko
+Miasto : ko
+NIP : ko
+Nabywca
+ko
+ko
+ko
+ko
+ko
+L.p.      |Nazwa towaru lub usługi       |Jednostka miary|Ilosc|Cena jednostkowa bez podatku VAT|Wartość sprzedaży bez podatku VAT|Procent podatku VAT|Kwota podatku VAT|Wartość sprzedaży z podatkiem VAT
+Razem: 0.0|0.0|0.0|0.0
