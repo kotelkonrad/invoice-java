@@ -1,18 +1,20 @@
-Miejsce wystawienia faktury: konrad
+Miejsce wystawienia faktury: ko
 Data wystawienia faktury: ko
 Data sprzedaży: ko
 
-Sprzedawca
+models.Sprzedawca
 Nazwa : ko
 Ulica : ko
 Numer pocztowy : ko
 Miasto : ko
 NIP : ko
-Nabywca
-ko
-ko
-ko
-ko
-ko
-L.p.      |Nazwa towaru lub usługi       |Jednostka miary|Ilosc|Cena jednostkowa bez podatku VAT|Wartość sprzedaży bez podatku VAT|Procent podatku VAT|Kwota podatku VAT|Wartość sprzedaży z podatkiem VAT
-Razem: 0.0|0.0|0.0|0.0
+models.Nabywca
+Nazwa : ko
+Ulica : ko
+Numer pocztowy : ko
+Miasto : ko
+NIP : ko
+L.p.      |Nazwa tow. lub usłu.          |Jedno. miary   |Ilosc|Cena jednost. bez VAT|Wartość sprze. bez VAT|Procent podatku VAT|Kwota pod. VAT|Wartość sprze. z VAT
+1         |Lody z rożkiem                |sztuka         |12   |15,00     |180,00    |20%  |36,00     |216,00    
+2         |Ropa                          |galon          |12   |50,00     |600,00    |20%  |120,00    |720,00    
+Razem: 65.0|780.0|156.0|936.0

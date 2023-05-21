@@ -1,13 +1,15 @@
+package controllers;
+
+import interfaces.BasicInterface;
+
 import java.util.Scanner;
 
-public class faktura {
-    public static void main(String[] args) {
+public class faktura implements BasicInterface {
 
-
-
+    public void run() {
+        System.out.println(HELLO);
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Oto program do faktur.");
         StringBuilder komenda = new StringBuilder();
         System.out.println("Podaj miejsce wystawienia faktury:");
         komenda.append(scanner.nextLine());
@@ -35,7 +37,7 @@ public class faktura {
         komenda.append(";").append(scanner.nextLine());
         System.out.println("Podaj NIP nadawcy:");
         komenda.append(";").append(scanner.nextLine()).append(";");
-        System.out.println("Podaj pozycje, napisz koniec żeby zakończyć podawanie pozycji:");
+        System.out.println("Podaj pozycje według wzoru: \nNazwaTowaruLubUsługi;Miara;Ilość;Cena;ProcentVAT \nNapisz koniec żeby zakończyć podawanie pozycji:");
         boolean first = true;
         while (true) {
             String pozycja = scanner.nextLine();
