@@ -1,6 +1,6 @@
 package models;
 
-public class SplitData {
+public abstract class SplitData {
     public static class Result {
         public String str1, str2, str3, str5;
         public double val1, val2, val3, val4;

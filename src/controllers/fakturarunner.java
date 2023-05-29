@@ -8,7 +8,7 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class fakturarunner {
+public class fakturarunner extends SplitData{
     public static void faktura(
                                String miejscewystawienia,
                                String datawystawienia,
