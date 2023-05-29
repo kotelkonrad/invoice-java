@@ -12,7 +12,7 @@ public class Sprzedawca extends BasicData {
     }
 
     public String toString() {
-        return "models.Sprzedawca"+"\n" +
+        return "Sprzedawca"+"\n" +
                 "Nazwa : " + this.nazwa +
                 "\nUlica : " + this.ulica +
                 "\nNumer pocztowy : " + this.numerpocztowy +

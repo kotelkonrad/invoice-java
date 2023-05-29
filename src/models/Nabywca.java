@@ -12,7 +12,7 @@ public class Nabywca extends BasicData{
     }
 
     public String toString() {
-        return "models.Nabywca" + "\n" +
+        return "Nabywca" + "\n" +
                 "Nazwa : " + this.nazwa +
                 "\nUlica : " + this.ulica +
                 "\nNumer pocztowy : " + this.numerpocztowy +
