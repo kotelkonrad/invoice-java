@@ -87,7 +87,6 @@ public class fakturarunner extends SplitData{
             } else if (pytanie.equalsIgnoreCase("tak")) {
                 String[] split = pozycjefaktury.split("\\|");
                 int i = 1;
-
                 PrintWriter writer;
                 String fakturanaz;
                 System.out.println("Podaj nazwę pliku");

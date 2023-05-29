@@ -9,7 +9,6 @@ public class faktura implements BasicInterface {
     public void run() {
         System.out.println(HELLO);
         Scanner scanner = new Scanner(System.in);
-
         StringBuilder komenda = new StringBuilder();
         System.out.println("Podaj miejsce wystawienia faktury:");
         komenda.append(scanner.nextLine());
